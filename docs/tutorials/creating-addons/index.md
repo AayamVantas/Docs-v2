@@ -31,7 +31,7 @@ Set an icon that will appear in the tools menu using a [PTImageAsset](../../api/
 ```lua
 local icon = PTImageAsset.New()
 icon.ImageID = 0
-icon.ImageType = ImageType.Asset
+icon.ImageType = Enums.ImageType.Asset
 addonObject.AddonIcon = icon
 ```
 
